@@ -1,0 +1,28 @@
+#container{
+    border: 2px solid black;
+    width: 80%;
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 40px 500px 150px;
+    gap: 10px;
+    
+    
+
+
+   
+}
+
+
+#div1{background-color: brown;
+grid-column-start: 1;grid-column-end: 5;}    
+#div2{background-color: cyan;
+    grid-column-start: 1;grid-column-end: 5;} 
+#div3{background-color: rgb(131, 235, 131);
+grid-column-start: 1; grid-column-end: 2;} 
+#div4{background-color: rgb(235, 194, 13);
+grid-column: 2/5;} 
+#div5{background-color: rgb(223, 15, 171);
+grid-column: 1/4;} 
+#div6{background-color: rgb(9, 24, 228);
+grid-column: 4/5;} 
